@@ -25,11 +25,10 @@ Contents:
 		DOWN_SPIKES.ipynb: this Jupyter notebook will pull down all Allen Institute Neuropixels data; may need some manual adjusting to this notebook
 	
 	Directories:
-		Time_binning_figure: contains subdirectories of all time bins tested; inside of which are Excel files that contain the 				decoding accuracy outputs of decodeAlien.py 
-		Local_anat_figure: contains subdirectories of all individual brain regions decoded from; inside of which are Excel files 			that contain the decoding accuracy outputs of decodeAlienAnat.py
-		Global_anat_figure: *empty directory, as the fourC.py script runs easier if these grouped brain regions have separate 				folders in the main untitled4 directory (all directories starting with 'All...')
-			depricated_figures: directory containing figures that have been 'retired' in the process of generating the final 			figures
-		All_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using 'All' brain regions 				clumped together
-		All V1 + LGN_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only 'V1', 				'LGN'
-		All Subcortical_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only 				subcortical brain regions
-		All Cortical_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only cortical 			brain regions
+		Time_binning_figure: contains subdirectories of all time bins tested; inside of which are Excel files that contain the decoding accuracy outputs of decodeAlien.py 
+		Local_anat_figure: contains subdirectories of all individual brain regions decoded from; inside of which are Excel files that contain the decoding accuracy outputs of decodeAlienAnat.py
+		Global_anat_figure: *empty directory, as the fourC.py script runs easier if these grouped brain regions have separate folders in the main untitled4 directory (all directories starting with 'All...') depricated_figures: directory containing figures that have been 'retired' in the process of generating the final figures
+		All_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using 'All' brain regions clumped together
+		All V1 + LGN_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only 'V1', 'LGN'
+		All Subcortical_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only subcortical brain regions
+		All Cortical_50_ms: Excel files that contain the decoding accuracy outputs of decodeAlienClumped.py using only cortical brain regions
